@@ -89,6 +89,11 @@ hr {
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
 }
+.course {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 14px 0px #0000000D;
+}
 .course .course-banner img {
     width: 224px;
     height: 104px;
@@ -96,10 +101,12 @@ hr {
 .course-outhur {
     color: #ED6B4F;
 }
+
 .course-info {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 .course-duration {
     color: #FF4A60;
